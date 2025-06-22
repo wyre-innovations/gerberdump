@@ -289,7 +289,7 @@ fn main() {
         println!("  • Surface finish requirements");
         println!("  • Solder mask and silkscreen complexity");
         println!("  • Manufacturing difficulty score");
-        println!("");
+        println!();
     }
 
     // TODO: Implement actual Gerber file parsing and analysis

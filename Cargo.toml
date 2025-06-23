@@ -2,6 +2,21 @@
 name = "gerberdump"
 version = "0.1.0"
 edition = "2024"
+authors = ["Wyre Innovations Private Limited"]
+description = "objdump for Gerber files - analyze Gerber Layer Format files for PCB fabrication cost factors and manufacturing complexity"
+license = "MIT"
+repository = "https://github.com/wyre-innovations/gerberdump"
+homepage = "https://github.com/wyre-innovations/gerberdump"
+documentation = "https://github.com/wyre-innovations/gerberdump"
+readme = "README.md"
+keywords = ["gerber", "pcb", "manufacturing", "hardware", "fabrication"]
+categories = ["command-line-utilities", "development-tools", "hardware-support"]
+exclude = [
+    "target/",
+    ".git/",
+    ".github/",
+    "*.log"
+]
 
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
